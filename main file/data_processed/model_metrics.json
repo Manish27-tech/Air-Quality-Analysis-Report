@@ -1,0 +1,29 @@
+{
+  "regression_next_day": {
+    "R2": 0.7598848830573303,
+    "MAE": 23.398138766156098,
+    "RMSE": 36.46596685262948,
+    "Bias": -3.038808666191215,
+    "n": 2501.0
+  },
+  "classification_3tier": {
+    "accuracy": 0.8079268292682927,
+    "macro_f1": 0.7388416209078618
+  },
+  "classification_6class": {
+    "accuracy": 0.6086128048780488,
+    "macro_f1": 0.4487660741497415,
+    "severe_recall": 0.055299539170506916
+  },
+  "blend_weights": {
+    "persistence": 0.4808936105184662,
+    "delta": 3.3372965466557744e-06,
+    "ratio": 0.519102869071148,
+    "level": 1.831138392117092e-07
+  },
+  "clean_window": {
+    "mean_dose_reduction_pct": 33.38139791208361,
+    "share_days_safe_3h": 0.8220348030319206,
+    "share_days_no_safe_window": 0.17796519696807941
+  }
+}
